@@ -1,17 +1,37 @@
 /* global properties */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    padding: 5px 5px 8px;
+
+}
 
 h1 {
     background-color: lightblue;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    margin-bottom: 5px;
 }
 a {
-    display: flex;
-    text-align: center;
+    display: block;
     background-color: lightgreen;
-    justify-content: center;
+    margin-bottom: 3px;
+    text-align: center;
     font-size: 20px;
     text-decoration: none;
+    
 }
 
 a:hover {
