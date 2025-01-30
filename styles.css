@@ -1,0 +1,41 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: gray;
+    
+}
+
+div {
+    display: block;
+    width: 300px;
+    padding: 32px;
+    margin: 100px auto;
+    border: 1px solid violet;
+    background-color: lightgray;
+    border-radius: 40px;
+}
+
+h1 {
+    padding: 12px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 12px;
+    background-color: lightblue;
+    border-radius: 40px;
+    box-shadow: -5px 5px lightslategray;
+    
+}
+
+li {
+    padding: 12px;
+    background-color: lightcyan;
+    margin: 12px;
+    border-radius: 20px;
+    box-shadow: -5px 5px lightslategray;
+
+}
